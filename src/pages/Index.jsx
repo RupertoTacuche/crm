@@ -1,4 +1,5 @@
 import {useLoaderData} from 'react-router-dom'
+import Cliente from '../components/Cliente'
 export function loader(){
   const clientes = [
     {
@@ -55,11 +56,16 @@ function Index() {
                     <th className='p-2'>Contacto</th>
                     <th className='p-2'>Acciones</th>
                   </tr>
+                </thead>
 
                   <tbody>
-                     {clientes.map}
+                     {clientes.map(cliente => (
+                       <Cliente 
+                           cliente={cliente}
+                           key={cliente.id}
+                       />         
+                     ))}
                   </tbody>
-                </thead>
             </table>
         ) : (
           <p className="text-center mt-10">No hay clientes aun</p>
