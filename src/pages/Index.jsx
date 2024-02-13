@@ -3,11 +3,13 @@ import { obtenerClientes} from '../data/clientes'
 import Cliente from '../components/Cliente'
 export function loader(){
   const clientes = obtenerClientes()
-  return 
+  return clientes
 }
 function Index() {
 
   const  clientes = useLoaderData();
+
+  //error boundaries
   
   return (
     <>
