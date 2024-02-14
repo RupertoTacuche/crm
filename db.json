@@ -1,39 +1,55 @@
 {
-    "clientes" : [
-        {
-            "id": 1,
-            "nombre": "Juan",
-            "telefono": 102013313,
-            "email": "juan@juan.com",
-            "empresa": "Codigo Con Juan"
-        },
-        {
-            "id": 2,
-            "nombre": "Karen",
-            "telefono": 138198313,
-            "email": "karen@juan.com",
-            "empresa": "Codigo Con Juan"
-        },
-        {
-            "id": 3,
-            "nombre": "Josue",
-            "telefono": 31983913,
-            "email": "josue@juan.com",
-            "empresa": "Codigo Con Juan"
-        },
-        {
-            "id": 4,
-            "nombre": "Miguel",
-            "telefono": 319381983,
-            "email": "miguel@juan.com",
-            "empresa": "Codigo Con Juan"
-        },
-        {
-            "id": 5,
-            "nombre": "Pedro",
-            "telefono": 1398198938,
-            "email": "pedro@juan.com",
-            "empresa": "Codigo Con Juan"
-        }
-    ]
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "telefono": 102013313,
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "2",
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "3",
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "4",
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "c4de",
+      "nombre": "Juan Pitufo",
+      "empresa": "pitufilandia",
+      "email": "juan@pitufilandia.com",
+      "telefono": "6895432",
+      "notas": "Quiere secuestrar a gargamel"
+    },
+    {
+      "id": "172c",
+      "nombre": "Donald el Pato",
+      "empresa": "Disney",
+      "email": "donald@disney.com",
+      "telefono": "4655783",
+      "notas": "Quiere que le curen a pluto"
+    }
+  ]
 }
